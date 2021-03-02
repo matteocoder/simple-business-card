@@ -1,0 +1,29 @@
+\documentclass[11pt]{article}
+\usepackage{fontspec,qrcode}
+\setmainfont{Junicode}
+\usepackage[papersize={85mm,55mm},margin={1cm}]{geometry}
+\setlength{\parindent}{0pt}
+\frenchspacing
+
+\begin{document}
+\thispagestyle{empty}
+\vspace*{\fill}
+\begin{minipage}[t]{0.75\textwidth}
+    \begin{flushleft}
+        {\Large Ione F. Patrick}\\
+
+        \medskip
+        +1~610-648-9081\\
+        example.ionefpatrick.xyz\\
+        \makeatletter
+        ionefpatrick@example.com
+        \makeatother
+    \end{flushleft}
+\end{minipage}
+\begin{minipage}[t]{0.25\textwidth}
+    \vspace*{\fill}
+    \qrcode[height=\textwidth]{MECARD:N:Ione F. Patrick;TEL:+16106489081;URL:example.ionefpatrick.xyz;EMAIL:ionefpatrick@example.com;;}
+    \vspace*{\fill}
+\end{minipage}
+\vspace*{\fill}
+\end{document}
